@@ -55,8 +55,11 @@
 
 .artistImg {
     width: 245px;
+    max-width: 245px;
     height: 245px;
+    max-height: 245px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .followersIcon {
