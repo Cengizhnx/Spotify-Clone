@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@200;400&display=swap');
+
+.artistName {
+    font-family: 'Mallanna', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.nick {
+    font-size: 12.5px;
+    letter-spacing: 1px;
+}
+
+.cityNumber {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.cityName {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+}
+
+.cityListen {
+    font-size: 12px;
+    letter-spacing: 0.7px;
+}
+
+.numberBox {
+    width: 40px;
+    height: 35px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.monthListener {
+    font-family: 'Gantari', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+.monthListenerNumber {
+    font-family: 'Gantari', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 17.5px;
+    font-weight: 200;
+}
+
+.artistImg {
+    width: 245px;
+    height: 245px;
+    border-radius: 50%;
+}
+
+.followersIcon {
+    width: 25px;
+}
+
+.cityIcon {
+    width: 30px;
+}
+
+.borderTop {
+    border-radius: 15px;
+}
+
+.borderBottom {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.borderBottomW {
+    border-bottom: 3px solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.headerImg {
+    object-fit: cover;
+    width: 100%;
+    max-height: 275px;
+}
+
+.borderHeader {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.zoom {
+    transition: transform .5s;
+    cursor: pointer;
+}
+
+.zoom:hover {
+    transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    /* IE 9 */
+    -webkit-transform: scale(1.3);
+    /* Safari 3-8 */
+}
+
+/* .artistBg {
+    background: rgb(31, 31, 31);
+    background: linear-gradient(0deg, #1f1f1f 22%, #5a1515 64%, #a40909 94%);
+} */
+
+.albumCard {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 192px;
+    max-height: 247.9px;
+    width: 192px;
+    height: 247.9px;
+}
+
+.albumImg {
+    max-width: 160px;
+    max-height: 160px;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12.5px;
+    transition: transform .5s;
+}
+
+.albumImg:hover {
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+}
+
+.albumName {
+    font-size: 17px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-family: 'Gantari', sans-serif;
+    text-transform: capitalize;
+}
+
+.albumInfo {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Gantari', sans-serif;
+    color: rgb(162, 160, 160);
+}
+
+.infoImg {
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.infoP {
+    text-align: justify;
+    font-family: 'Gantari', sans-serif;
+    font-size: 16.5px;
+}
+
+.socialP {
+    text-align: justify;
+    font-family: 'Gantari', sans-serif;
+    font-size: 16.5px;
+    text-decoration: none;
+    color: black;
+}
+
+.social {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+
+.spotify {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 125px;
+}
+
+@media screen and (max-width: 576px) {
+    .mxs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .albumCard {
+        max-width: 232px;
+        max-height: 287.9px;
+        width: 232px;
+        height: 287.9px;
+    }
+
+    .albumImg {
+        max-width: 200px;
+        max-height: 200px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .albumName {
+        font-size: 20px;
+    }
+
+    .close{
+        margin-top: 45px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .mxs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .albumCard {
+        max-width: 232px;
+        max-height: 287.9px;
+        width: 232px;
+        height: 287.9px;
+    }
+
+    .albumImg {
+        max-width: 200px;
+        max-height: 200px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .albumName {
+        font-size: 20px;
+    }
+
+    #artistHeader {
+        height: 300px;
+    }
+
+    .headerImg{
+        height: 300px;
+        max-height: 300px;
+
+    }
+
+    .close{
+        margin-top: 45px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    #artistHeader {
+        height: 300px;
+    }
+
+    .headerImg{
+        height: 300px;
+        max-height: 300px;
+
+    }
+    .close{
+        margin-top: 45px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    #artistHeader {
+        height: 325px;
+    }
+
+    .headerImg{
+        height: 325px;
+        max-height: 325px;
+
+    }
+}
