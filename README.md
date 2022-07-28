@@ -16,5 +16,4 @@ ulaşabilirsiniz.
 Arama kısmından istediğiniz sanatçıyı getirebilirsiniz. 🔜
 
 
-
-![alt](spotify.gif)
+[![N|Solid](https://i.hizliresim.com/ci924qc.gif)]
